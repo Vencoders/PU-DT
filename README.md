@@ -30,11 +30,11 @@ python setup.py install
 conda install h5py
 conda install tensorboard
 ```
-6、Train the model: First, you need to download the training patches in HDF5 format from GoogleDrive and put it in folder data. Then run:
+6、Train the model: First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/drive/folders/1Mam85gXD9DTamltacgv8ZznSyDBbBovv) and put it in folder data. Then run:
 ```python
 python main.py --log_dir log/PU-DT
 ```
-7、Evaluate the model: First, you need to download the pretrained model from GoogleDrive, extract it and put it in folder log/PC2-PU. Then run:
+7、Evaluate the model:
 ```python
 python main.py --phase test --log_dir log/PU-DT --checkpoint_path model_best.pth.tar
 ```
