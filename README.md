@@ -30,7 +30,7 @@ python setup.py install
 conda install h5py
 conda install tensorboard
 ```
-6、Train the model: First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/drive/folders/1Mam85gXD9DTamltacgv8ZznSyDBbBovv) and put it in folder data. Then run:
+6、Train the model: First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/file/d/13ZFDffOod_neuF3sOM0YiqNbIJEeSKdZ/view) and put it in folder data. Then run:
 ```python
 python main.py --log_dir log/PU-DT
 ```
