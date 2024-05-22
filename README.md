@@ -39,5 +39,3 @@ python main.py --log_dir log/PU-DT
 python main.py --phase test --log_dir log/PU-DT --checkpoint_path model_best.pth.tar
 ```
 You will see the input and output results in the folder log/PU-DT.
-
-The training and testing mesh files can be downloaded from GoogleDrive.
